@@ -65,9 +65,6 @@ public class King : MonoBehaviour
 
         anim.SetBool("isRunning", moveInput != 0);
         anim.SetBool("isJumping", Input.GetKeyDown(KeyCode.W) && isGrounded);
-
-        // —охран€ем состо€ние анимации
-        ghostCurrentState = anim.GetCurrentAnimatorStateInfo(0);
     }
 
     void Walk()
@@ -87,12 +84,9 @@ public class King : MonoBehaviour
         if (collider.CompareTag("Spike"))
         {
             ghostCurrentState = ghostAnim.GetCurrentAnimatorStateInfo(0);
-
             Instantiate(deathEffect, transform.position, Quaternion.identity);
             gameObject.SetActive(false);
             ghost.SetActive(true);
-
-            // ”станавливаем позицию призрака и запускаем его анимацию
             ghost.transform.position = transform.position;
             ghostAnim.Play(ghostCurrentState.fullPathHash, 0, ghostCurrentState.normalizedTime);
         }

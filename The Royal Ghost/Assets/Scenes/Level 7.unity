@@ -340,6 +340,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 190281039266574859, guid: 4c18198a4afabbb498eda7fe4992e992, type: 3}
   m_PrefabInstance: {fileID: 2996598}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &15332935 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 190281039266574859, guid: 4c18198a4afabbb498eda7fe4992e992, type: 3}
+  m_PrefabInstance: {fileID: 431314543}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &21526332 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2535653511031681473, guid: 4c18198a4afabbb498eda7fe4992e992, type: 3}
@@ -617,6 +622,10 @@ PrefabInstance:
     - target: {fileID: 5338835567555365088, guid: d397039b531545b4f8146f74803653cd, type: 3}
       propertyPath: m_Name
       value: Ghost
+      objectReference: {fileID: 0}
+    - target: {fileID: 5338835567555365088, guid: d397039b531545b4f8146f74803653cd, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6277269819026483698, guid: d397039b531545b4f8146f74803653cd, type: 3}
       propertyPath: king
@@ -1182,6 +1191,8 @@ MonoBehaviour:
   - {fileID: 723130391}
   - {fileID: 977858374}
   - {fileID: 2078474632}
+  - {fileID: 1515520113}
+  - {fileID: 15332935}
   ghost: {fileID: 1579259702}
   king: {fileID: 1854718319}
 --- !u!114 &519420034
@@ -2626,6 +2637,11 @@ PrefabInstance:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 190281039266574859, guid: 4c18198a4afabbb498eda7fe4992e992, type: 3}
   m_PrefabInstance: {fileID: 1435982070}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1515520113 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 190281039266574859, guid: 4c18198a4afabbb498eda7fe4992e992, type: 3}
+  m_PrefabInstance: {fileID: 1675616880}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1546916481
 GameObject:

@@ -70,9 +70,7 @@ public class Ghost : MonoBehaviour
 
         if (collider.CompareTag("Aegis") && !hasColPlat)
         {
-            // Сохраняем состояние анимации короля перед переключением
             kingCurrentState = kingAnim.GetCurrentAnimatorStateInfo(0);
-
             Instantiate(lifeEffect, transform.position, Quaternion.identity);
             gameObject.SetActive(false);
             king.SetActive(true);

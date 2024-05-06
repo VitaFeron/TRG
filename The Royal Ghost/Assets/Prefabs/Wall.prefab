@@ -1033,7 +1033,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3213752962201902456, guid: 4c18198a4afabbb498eda7fe4992e992, type: 3}
       propertyPath: m_SortingOrder
-      value: -3
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1309,7 +1309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3213752962201902456, guid: 4c18198a4afabbb498eda7fe4992e992, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: -3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2051,7 +2051,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3213752962201902456, guid: 4c18198a4afabbb498eda7fe4992e992, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: -3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2455,7 +2455,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3213752962201902456, guid: 4c18198a4afabbb498eda7fe4992e992, type: 3}
       propertyPath: m_SortingOrder
-      value: -3
+      value: -2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2525,7 +2525,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3213752962201902456, guid: 4c18198a4afabbb498eda7fe4992e992, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: -3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4413,7 +4413,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3213752962201902456, guid: 4c18198a4afabbb498eda7fe4992e992, type: 3}
       propertyPath: m_SortingOrder
-      value: -1
+      value: -3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
